@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedor & Designer Gráfico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="website icon" type="png" href="/IMG/icon-png.png">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- Aqui você pode substituir pelo seu logotipo -->
+                <a href="http://127.0.0.1:5500/index.html#home">
+                    <img src="/IMG/LogoWhiteWDEV.png" alt="Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Muito prazer, sou <span class="highlight">Wylham.</span></h1>
+                <h2>Desenvolvedor & Designer Gráfico</h2>
+                <p>Transformo ideias em soluções visuais que comunicam, encantam e geram resultados.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/IMG/SYMBwhiteWDEV.png" alt="Imagem de perfil">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Mim</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/IMG/LogoWhiteWDEV.png" alt="Foto sobre mim">
+                </div>
+                <div class="about-text">
+                    <h3>Quem sou eu?</h3>
+                    <p>Sou um desenvolvedor web e designer gráfico apaixonado por criar soluções digitais que combinam
+                        funcionalidade e estética. Com experiência em desenvolvimento front-end e design gráfico,
+                        ofereço uma perspectiva única que abrange tanto os aspectos técnicos quanto visuais dos
+                        projetos.</p>
+                    <p>Minha jornada começou há X anos, e desde então tenho trabalhado em diversos projetos que me
+                        permitiram aprimorar minhas habilidades e expandir meu conhecimento em diferentes tecnologias e
+                        ferramentas de design.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Educação</h4>
+                                <p>Bacharel em Design/Ciência da Computação</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Experiência</h4>
+                                <p>X anos de experiência profissional</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Minhas Habilidades</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-target="dev">Desenvolvimento</button>
+                <button class="tab-btn" data-target="design">Design Gráfico</button>
+            </div>
+            <div class="skills-content">
+                <div class="tab-content active" id="dev">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h3>HTML5</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h3>CSS3</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h3>JavaScript</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h3>React</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <h3>Node.js</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>SQL</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="design">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-adobe"></i>
+                            </div>
+                            <h3>Photoshop</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-adobe"></i>
+                            </div>
+                            <h3>Illustrator</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <h3>Figma</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <h3>UI/UX Design</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Teoria das Cores</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-pen-nib"></i>
+                            </div>
+                            <h3>Tipografia</h3>
+                            <div class="skill-level">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meus Projetos</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="dev">Desenvolvimento</button>
+                <button class="filter-btn" data-filter="design">Design Gráfico</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="dev">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Projeto de Desenvolvimento 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Projeto Web Responsivo</h3>
+                        <p>Website responsivo desenvolvido com HTML, CSS e JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-secondary">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="dev">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Projeto de Desenvolvimento 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Aplicação React</h3>
+                        <p>Aplicação web desenvolvida com React e API RESTful.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-secondary">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Projeto de Design 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Identidade Visual</h3>
+                        <p>Criação de logo e identidade visual para empresa.</p>
+                        <div class="project-tags">
+                            <span>Branding</span>
+                            <span>Illustrator</span>
+                            <span>Logo</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Projeto de Design 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>UI/UX Design</h3>
+                        <p>Design de interface para aplicativo mobile.</p>
+                        <div class="project-tags">
+                            <span>UI/UX</span>
+                            <span>Figma</span>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="dev">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Projeto de Desenvolvimento 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce</h3>
+                        <p>Loja virtual com sistema de pagamento integrado.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-secondary">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=400" alt="Projeto de Design 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Media Kit</h3>
+                        <p>Kit de posts para redes sociais de uma marca.</p>
+                        <div class="project-tags">
+                            <span>Social Media</span>
+                            <span>Photoshop</span>
+                            <span>Marketing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Estou disponível para freelance, projetos de tempo integral ou parcial. Entre em contato comigo e
+                        vamos conversar sobre seu projeto.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>seuemail@exemplo.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+55 (00) 00000-0000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Sua Cidade, Estado, Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Wylham<span>Dev</span></h2>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WylhamDev. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
